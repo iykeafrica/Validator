@@ -41,11 +41,14 @@ dependencies {
     implementation "androidx.appcompat:appcompat:$rootProject.ext.appcompatVersion"
     implementation "com.google.android.material:material:$rootProject.ext.materialLibVersion"
     implementation "androidx.constraintlayout:constraintlayout:$rootProject.ext.constraintLayoutVersion"
+    implementation project(path: ':validatetor')
     testImplementation "junit:junit:$rootProject.ext.junitVersion"
     androidTestImplementation "androidx.test.ext:junit:$rootProject.ext.testRunnerVersion"
     androidTestImplementation "androidx.test.espresso:espresso-core:$rootProject.ext.espressoCoreVersion"
 
     // added validatetor Android library module as a dependency
-    implementation project(':validatetor')
+//    implementation project(':validatetor')
+
+    implementation 'com.github.iykeafrica:Validator:v1.0'
 
 }
