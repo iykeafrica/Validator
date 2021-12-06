@@ -49,6 +49,4 @@ dependencies {
     // added validatetor Android library module as a dependency
 //    implementation project(':validatetor')
 
-    implementation 'com.github.iykeafrica:Validator:v1.0'
-
 }
